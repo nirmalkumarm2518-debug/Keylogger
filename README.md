@@ -63,25 +63,30 @@ This repository is provided solely for educational and security-awareness purpos
 
 ## Telegram Configuration
 
-To run this demonstration project, you must configure your own Telegram Bot and Chat ID.
+To execute the project:
 
-### Prerequisites
+1. Create your own Telegram Bot.
+2. Obtain the Bot Token.
+3. Find your Telegram Chat ID.
+4. Replace the placeholder values in `Keylogger.py`:
 
-1. Create a Telegram bot using **BotFather**.
-2. Obtain the bot token provided by BotFather.
-3. Determine your Telegram Chat ID.
-4. Update the configuration values in the script with your own bot token and chat ID.
+```python
+TELEGRAM_BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+TELEGRAM_CHAT_ID = "YOUR_CHAT_ID_HERE"
+```
 
-### Purpose
+The Telegram bot is used to deliver demonstration reports to your own Telegram account during testing.
 
-The Telegram integration is used to demonstrate how data collected by monitoring software could be transmitted to a remote destination. During testing, captured information is sent only to the Telegram account that you configure.
+### Telegram Bot Setup Guide
 
-### Important Notes
+Video Tutorial:
+https://youtu.be/DRilJ2Xj_9U?si=82im4sEc8ftZmV4f
 
-* Use only your own Telegram bot and chat ID.
-* Do not use third-party credentials.
-* Test only in authorized environments.
-* Ensure compliance with applicable laws, policies, and ethical guidelines.
+## Screenshots
+
+### Configuration Example
+
+![Telegram Demo 2](screenshots/proof_2.png)
 
 ## High-level analysis of Keylogger.py
 
