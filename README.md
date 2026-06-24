@@ -79,6 +79,28 @@ Unauthorized monitoring of users or systems may be illegal and unethical.
 
 This repository is provided solely for educational and security-awareness purposes. The authors do not endorse or encourage unauthorized monitoring, credential theft, or any malicious activity.
 
+## Telegram Configuration
+
+To run this demonstration project, you must configure your own Telegram Bot and Chat ID.
+
+### Prerequisites
+
+1. Create a Telegram bot using **BotFather**.
+2. Obtain the bot token provided by BotFather.
+3. Determine your Telegram Chat ID.
+4. Update the configuration values in the script with your own bot token and chat ID.
+
+### Purpose
+
+The Telegram integration is used to demonstrate how data collected by monitoring software could be transmitted to a remote destination. During testing, captured information is sent only to the Telegram account that you configure.
+
+### Important Notes
+
+* Use only your own Telegram bot and chat ID.
+* Do not use third-party credentials.
+* Test only in authorized environments.
+* Ensure compliance with applicable laws, policies, and ethical guidelines.
+
 ## High-level analysis of Keylogger.py
 
 This script is designed to:
