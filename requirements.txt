@@ -1,0 +1,14 @@
+//requirements-windows
+
+requests>=2.31.0
+pynput>=1.7.6
+
+
+//requirements-linux
+
+requests>=2.31.0
+pynput>=1.7.6
+
+//requirements-termux
+
+requests>=2.31.0
