@@ -86,7 +86,7 @@ https://youtu.be/DRilJ2Xj_9U?si=82im4sEc8ftZmV4f
 
 ### Configuration Example
 
-![Telegram Demo 2](screenshots/proof_2.png)
+![Telegram Demo 2](screenshots/Replace_The_Values.png)
 
 ##Step by step process 
 ```python
